@@ -183,7 +183,7 @@
         .then(bmw.processZip.bind(bmw))
         .then(function (blob) {
           downloader.classList.add('ready');
-          bmw.prepareToDownload(downloader, blob, branch + '.zip');
+          bmw.prepareToDownload(downloader, blob, repo + '.zip');
         })
         .catch(function (error) {
           alert('Something went wrong!');

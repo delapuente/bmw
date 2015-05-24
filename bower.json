@@ -1,0 +1,22 @@
+{
+  "name": "bmw",
+  "main": "index.html",
+  "version": "0.1.0",
+  "authors": [
+    "Salvador de la Puente <salva@unoyunodiez.com>"
+  ],
+  "description": "A handy tool to make webapps installable",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "es6-promise": "~2.1.0",
+    "fetch": "~0.8.2",
+    "jszip": "Stuk/jszip#~2.5.0"
+  }
+}

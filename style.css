@@ -1,0 +1,80 @@
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+  background-color: rgb(15, 221, 206);
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  white-space: nowrap;
+  height: 100%;
+}
+
+body:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+section {
+  background-color: #fff;
+  padding: 2rem;
+  display: inline-block;
+  border-radius: 3rem 3rem 0 3rem;
+  box-shadow: 0 0.5rem 2rem -1rem #000;
+  vertical-align: middle;
+  white-space: normal;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+span[contenteditable] {
+  border: none;
+  border-bottom: 0.1rem solid #b2b2b2;
+  padding-bottom: 0.2rem;
+  min-width: 10ex;
+  display: inline-block;
+}
+
+a {
+  color: #000;
+  background-color: #dfdfdf;
+  pointer-events: none;
+  text-decoration: none;
+}
+
+button {
+  margin-top: 2.5rem;
+  outline: none;
+  background-color: rgb(15, 221, 206);
+  border: none;
+  border-radius: 5rem;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.download {
+  margin-top: 5rem;
+}
+
+.ready {
+  background-color: rgb(15, 221, 206);
+  pointer-events: all;
+}
+
+a, .ready {
+  border-radius: 5rem;
+  padding: 1rem 2rem;
+  font-weight: bold;
+}
